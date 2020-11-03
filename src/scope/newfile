@@ -1,0 +1,9 @@
+ ->Calculation of an arithmetic expression involving operators with unequal priorities starts with the calculation of a sub-expression that involves
+ an operator with the highest priority.
+ ->Calculation of an arithmetic expression involving operators with equal priorities is made by evaluating expressions from left to right.
+
+For example, when calculating an arithmetic expression 3+2x4-2, sub-expression involving * operator will be calculated first, because operator * has highest priority.
+-> Hence,  3+2*4-2, first 2*4 will be calculated, which results in the next expression
+ ->3+8-2, now + and - operator have an equal priority, so, expression will be calculated from left to right
+ ->11-2, which results in
+->9

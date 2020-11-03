@@ -1,0 +1,14 @@
+Lambda:
+It helps to iterate, filter and extract data from collection.
+
+(argument-list) -> {body}  
+
+Argument-list: It can be empty or non-empty as well
+Arrow-token: It is used to link arguments-list and body of expression
+Body: It contains expressions and statements for lambda expression. if single expression body is not mandatory, 
+
+
+()-> return 5; //invalid
+() -> {return 5}; //invalid
+a,b -> { return a+b;}; //invalid
+(int a,b)->(a+b); //invalid compile time error
